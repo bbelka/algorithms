@@ -28,20 +28,10 @@ function validAnagram(str1, str2) {
             console.log("false: str2[char] not in str1");
             return false;
         }
-
-        // if too many of char in str2, return false
-        if (obj1[val]) {
-            if (obj1[val] === 0) {
-                console.log("false too many char in str2");
-                return false;
-            }
-            if (obj1[val] > 0) {
-                obj1[val]--;
-            }
-        }
+        obj1[val]--;
     }
-
+    console.log("Ya got yerself an anagram!");
     return true;
 }
 
-validAnagram("anagram", "nagara")
+validAnagram("anagram", "nagaaar")
