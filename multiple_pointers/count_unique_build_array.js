@@ -10,7 +10,8 @@ function countUniqueValues(arr) {
         }
         else {
             left++;
-            arr.splice(left, 1, arr[right]);
+            // arr.splice(left, 1, arr[right]);
+            arr[left]= arr[right]
             console.log(arr);
         }
     }
