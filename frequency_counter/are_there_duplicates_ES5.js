@@ -1,5 +1,5 @@
-function areThereDuplicates(arguments) {
-console.log("hih");
+function areThereDuplicates() {
+console.log(arguments);
     //create counter object
     let counter = {};
 
@@ -19,8 +19,8 @@ console.log("hih");
     }
 
     //if no duplicates arise, return false
-    // console.log("false");
-    // return false;
+    console.log("false");
+    return false;
 }
 
-areThereDuplicates(1, 2, 3, 4, 5, 3)
+areThereDuplicates(1, 2, 3, 4, 5)
