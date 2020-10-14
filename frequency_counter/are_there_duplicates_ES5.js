@@ -1,5 +1,9 @@
-function areThereDuplicates() {
+//the "arguments object" creates an array-like object
+//it is "array-like" because the keys correspond to what the index would be if the arguments were put directly into an array, in the order that they appear in the arguments passed to the function. And he values are the arguments themselves.
+//to run array method on jteh arguments object, you would need to create an array from the object first.ƒ
 
+function areThereDuplicates() {
+    console.log(arguments);
     //create counter object
     let counter = {};
 
