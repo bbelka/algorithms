@@ -1,8 +1,11 @@
 //Write a function that takes in a whole number and returns true if the number is a perfect square or false if otherwise.
 
-const perfectSquare = (num) => {
+const perfectSquare = num => {
+
     for (let i = 0; i < num; i++) {
+
         if (i * i === num) {
+
             return true;
         }
     }
