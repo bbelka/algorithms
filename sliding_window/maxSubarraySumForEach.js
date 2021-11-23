@@ -9,7 +9,7 @@ const maxSubarraySum = (a, n) => {
     let t = 0;
     let m = 0;
 
-    a.filter((e, i) => {
+    a.forEach((e, i) => {
         t += e;
         n <= i ? t -= a[i - n] : null;
         t > m ? m = t : null
