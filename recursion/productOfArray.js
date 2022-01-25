@@ -1,0 +1,1 @@
+const productOfArray = (arr) => arr.length < 1 ? 1 : arr[0] * productOfArray(arr.slice(1))
