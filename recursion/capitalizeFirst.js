@@ -1,0 +1,3 @@
+const capitalizeFirst = (arr) => {
+    arr
+}

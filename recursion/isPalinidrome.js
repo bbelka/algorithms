@@ -6,7 +6,7 @@ const isPalindrome = (string) => {
         return helper(str.slice(0, -1))
     };
     helper(string);
-    return reverse === string ? true : false
+    return reverse === string;
 }
 
-console.log(isPalindrome("tacoca"));
+console.log(isPalindrome("tacocat"));
